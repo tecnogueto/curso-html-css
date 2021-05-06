@@ -108,3 +108,14 @@ body {
     font-size: 72px;
     line-height: 98px;
 }
+
+.botao {
+    background: #28F5BE;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 196px;
+    height: 62px;
+    display: block;
+    text-align: center;
+    border-radius: 8px;
+}   
