@@ -107,6 +107,7 @@ body {
     font-weight: 800;
     font-size: 72px;
     line-height: 98px;
+    margin-bottom: 32px;
 }
 
 .botao {
@@ -120,4 +121,13 @@ body {
 
 .botao:hover {
     background: #FF3773;  
+}
+
+/* Banner Principal */
+.banner {
+    margin-top: 96px;
+    margin-bottom: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
