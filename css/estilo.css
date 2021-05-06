@@ -113,9 +113,11 @@ body {
     background: #28F5BE;
     color: #FFFFFF;
     text-decoration: none;
-    width: 196px;
-    height: 62px;
-    display: block;
     text-align: center;
+    padding: 16px 67px;
     border-radius: 8px;
-}   
+}
+
+.botao:hover {
+    background: #FF3773;  
+}
