@@ -73,7 +73,9 @@ body {
     padding: 26px 0;
 }
 
-.conteudo-do-header {
+.conteudo-do-header,
+.conteudo-conquistas,
+.blocos-de-numeros {
     display: flex;
     justify-content: space-between;
 }
@@ -137,4 +139,30 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* Nossas conquistas */
+.todas-nossas-conquistas {
+    padding-top: 82px;
+    padding-bottom: 82px;
+}
+
+.coluna,
+.blocos-de-conquistas {
+    width: 45%;
+}
+
+.blocos-de-numeros {
+    flex-wrap: wrap;
+}
+
+.blocos-de-conquistas {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.blocos-de-conquistas i {
+    font-size: 26px;
+    margin-right: 16px;
 }
