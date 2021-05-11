@@ -156,7 +156,8 @@ body {
     flex-wrap: wrap;
 }
 
-.blocos-de-conquistas {
+.blocos-de-conquistas,
+.conteudo-vamos-la {
     display: flex;
     align-items: center;
     margin-bottom: 40px;
@@ -165,4 +166,27 @@ body {
 .blocos-de-conquistas i {
     font-size: 26px;
     margin-right: 16px;
+}
+
+/* Vamos lá */
+.todo-conteudo-vamos-la{
+    padding: 64px 0;
+}
+
+.conteudo-vamos-la {
+    justify-content: space-between;
+}
+
+.link-roxo {
+    font-size: 20px;
+    font-weight: bold;    
+    color: #9B51E0;
+    text-decoration: none;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.link-roxo i {
+    margin-left: 8px;
 }
