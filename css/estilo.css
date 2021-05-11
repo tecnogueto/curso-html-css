@@ -157,7 +157,8 @@ body {
 }
 
 .blocos-de-conquistas,
-.conteudo-vamos-la {
+.conteudo-vamos-la,
+.conteudo-gerencia-projetos {
     display: flex;
     align-items: center;
     margin-bottom: 40px;
@@ -173,7 +174,8 @@ body {
     padding: 64px 0;
 }
 
-.conteudo-vamos-la {
+.conteudo-vamos-la,
+.conteudo-gerencia-projetos {
     justify-content: space-between;
 }
 
@@ -189,4 +191,15 @@ body {
 
 .link-roxo i {
     margin-left: 8px;
+}
+
+/* Genrencia de projetos */
+.todo-conteudo-gerencia-projetos {
+    background:#FF3773;
+    color: #FFF;
+    padding: 68px 0;
+}
+
+.todo-conteudo-gerencia-projetos .botoes-lojas {
+    margin-top: 48px;
 }
