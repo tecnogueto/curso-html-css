@@ -75,7 +75,8 @@ body {
 
 .conteudo-do-header,
 .conteudo-conquistas,
-.blocos-de-numeros {
+.blocos-de-numeros,
+.bloco-depoimentos {
     display: flex;
     justify-content: space-between;
 }
@@ -139,6 +140,69 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* Depoimentos */
+
+.todos-os-depoimentos {
+    background: #28F5BE;
+    padding-top: 120px;
+    padding-bottom: 152px;
+    margin: 64px 0; 
+}
+
+.depoimento {
+    background: #FFFFFF;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    margin-top: 24px;
+}
+
+.depoimento p,
+.depoimento h3 {
+    color: #18191F;
+    font-size: 18px;
+}
+
+.depoimento p {
+    line-height: 32px; 
+    margin-bottom: 24px; 
+    margin-top: -30px;
+}
+
+.depoimento p,
+.depoimento h3,
+.depoimento h4 {
+    padding-left: 32px;
+}
+
+
+.textos-do-depoimento:before {
+    content: url(../imagens/aspas.png);
+}
+
+.depoimento h3 {
+    line-height: 28px;
+}
+
+.depoimento h4 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #969BAB;
+    font-weight: normal;
+}
+
+.margin-negative-110 {
+    margin-top: -110px;
+}
+
+.margin-negative-110 .depoimento:first-child {
+    margin-bottom: 124px;
+}
+
+.largura-350 {
+    width: 350px;
 }
 
 /* Nossas conquistas */
