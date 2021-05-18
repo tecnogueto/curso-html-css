@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    color: #333333;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.conteudo {
+    width: 80%;
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+}
+
+.bloco-de-recusos {
+    text-align: center;
+    width: 30%;
+    margin: 50px 0 15px 0;
+}
+
+.bloco-de-recusos i {
+    font-size: 48px;
+}
+
+.cor-verde {
+    color: #28F5BE;
+}
+
+.cor-rosa {
+    color: #FF3773;
+}
+
+.titulo-bloco-de-recusos {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.todos-os-blocos-de-recursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.titulo-de-sessao {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titulo {
+    margin: 8px 0px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.sub-titulo {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: white;
+    border-bottom: 1px solid #E5E9F2;
+    padding: 26px 0;
+}
+
+.conteudo-do-header,
+.conteudo-conquistas,
+.blocos-de-numeros,
+.bloco-depoimentos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacoes-do-cabecalho,
+.informacoes-do-cabecalho nav {
+    display: flex;
+    align-items: center;
+}
+
+.informacoes-do-cabecalho img,
+.informacoes-do-cabecalho nav a {
+    margin-right: 32px;
+}
+
+.informacoes-do-cabecalho nav a {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #18191F;
+}
+
+.botoes-lojas a {
+    margin-right: 12px;
+    text-decoration: none;
+}
+
+/* Geral */
+.titulo-principal {
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    margin-bottom: 32px;
+}
+
+.botao {
+    background: #28F5BE;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    padding: 16px 67px;
+    border-radius: 8px;
+}
+
+.botao:hover {
+    background: #FF3773;  
+}
+
+.margin-negative-110 {
+    margin-top: -110px;
+}   
+
+.margin-negative-110 .depoimento:first-child {
+    margin-bottom: 124px;
+}
+
+.largura-350 {
+    width: 350px;
+}

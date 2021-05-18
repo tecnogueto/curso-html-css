@@ -1,0 +1,36 @@
+/* Rodape */
+.rodape {
+    background: #0B0D17;
+    padding: 56px 84px;
+    color: #FFF;
+}
+
+.conteudo-rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-rodape ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 24px;
+}   
+
+.menu-rodape ul li {
+    margin-right: 24px;
+}
+
+.menu-rodape ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.botoes-download-rodape {
+    display: flex;
+    flex-direction: column;
+}
+
+.botoes-download-rodape a {
+    margin-top: 16px;
+}

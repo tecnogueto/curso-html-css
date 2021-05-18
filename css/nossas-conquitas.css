@@ -1,0 +1,27 @@
+/* Nossas conquistas */
+.todas-nossas-conquistas {
+    padding-top: 82px;
+    padding-bottom: 82px;
+}
+
+.coluna,
+.blocos-de-conquistas {
+    width: 45%;
+}
+
+.blocos-de-numeros {
+    flex-wrap: wrap;
+}
+
+.blocos-de-conquistas,
+.conteudo-vamos-la,
+.conteudo-gerencia-projetos {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.blocos-de-conquistas i {
+    font-size: 26px;
+    margin-right: 16px;
+}
