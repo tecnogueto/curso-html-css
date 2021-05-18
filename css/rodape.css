@@ -2,7 +2,7 @@
 .rodape {
     background: #0B0D17;
     padding: 56px 84px;
-    color: #FFF;
+    color: var(--cor-branca);
 }
 
 .conteudo-rodape {

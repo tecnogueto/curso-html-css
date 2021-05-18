@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+:root {
+    --cor-rosa: #FF3773;
+    --cor-verde: #28F5BE;
+    --cor-branca: white; 
+
+    --fonte-14: 14px;
+}
+
 body {
     font-family: 'Manrope', sans-serif;
     color: #333333;
@@ -27,11 +35,11 @@ body {
 }
 
 .cor-verde {
-    color: #28F5BE;
+    color: var(--cor-verde);
 }
 
 .cor-rosa {
-    color: #FF3773;
+    color: var(--cor-rosa);
 }
 
 .titulo-bloco-de-recusos {
@@ -93,7 +101,7 @@ body {
 
 .informacoes-do-cabecalho nav a {
     font-weight: bold;
-    font-size: 14px;
+    font-size: var(--fonte-14);
     line-height: 20px;
     text-decoration: none;
     color: #18191F;
@@ -113,8 +121,8 @@ body {
 }
 
 .botao {
-    background: #28F5BE;
-    color: #FFFFFF;
+    background: var(--cor-verde);
+    color:  var(--cor-branca);
     text-decoration: none;
     text-align: center;
     padding: 16px 67px;
@@ -122,7 +130,7 @@ body {
 }
 
 .botao:hover {
-    background: #FF3773;  
+    background: var(--cor-rosa);  
 }
 
 .margin-negative-110 {

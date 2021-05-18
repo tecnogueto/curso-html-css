@@ -1,7 +1,7 @@
 /* Genrencia de projetos */
 .todo-conteudo-gerencia-projetos {
-    background:#FF3773;
-    color: #FFF;
+    background: var(--cor-rosa);
+    color: var(--cor-branca);
     padding: 68px 0;
 }
 
