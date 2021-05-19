@@ -1,0 +1,19 @@
+@media screen and (max-width: 480px) {
+
+    .todos-os-blocos-de-recursos,
+    .banner,
+    .bloco-depoimentos {
+        flex-direction: column;
+    }
+
+    .bloco-de-recusos,
+    .depoimento,
+    .coluna {
+        width: 100%;
+    }
+
+    .depoimento,
+    .margin-negative-110 .depoimento:first-child {
+        margin: 0;
+    }
+}
