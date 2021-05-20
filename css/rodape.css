@@ -34,3 +34,10 @@
 .botoes-download-rodape a {
     margin-top: 1rem;
 }
+
+@media screen and (max-width: 30rem) {
+    .rodape {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

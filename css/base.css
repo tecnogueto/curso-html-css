@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 :root {
     --cor-rosa: #FF3773;
     --cor-verde: #28F5BE;

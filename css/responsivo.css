@@ -3,7 +3,11 @@
     .todos-os-blocos-de-recursos,
     .banner,
     .bloco-depoimentos,
-    .conteudo-do-header {
+    .conteudo-do-header,
+    .conteudo-vamos-la,
+    .conteudo-conquistas,
+    .conteudo-gerencia-projetos,
+    .conteudo-rodape {
         flex-direction: column;
     }
 
@@ -28,5 +32,11 @@
 
     .banner-princial {
         background: #f6fffc;
+    }
+    
+    .imagem-responsiva {
+        width: 100%;
+        height: auto;
+        display: block;
     }
 }
