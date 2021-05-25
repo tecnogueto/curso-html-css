@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso básico de HTML e CSS</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/depoimento.css">
+    <link rel="stylesheet" href="css/nossas-conquitas.css">
+    <link rel="stylesheet" href="css/vamos-la.css">
+    <link rel="stylesheet" href="css/rodape.css">
+    <link rel="stylesheet" href="css/gerencia-projetos.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <script src="https://kit.fontawesome.com/8cd635fca2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="conteudo conteudo-do-header">
+            <div class="informacoes-do-cabecalho">
+                <a href="index.html">
+                    <img src="imagens/logo.png" alt="Logo da Tecnogueto" />
+                </a>
+                <nav>
+                    <a href="sobre.html">
+                        Sobre
+                    </a>
+                    <a href="contato.html">
+                        Contato
+                    </a>
+                </nav>
+            </div>
+            <div class="botoes-lojas">
+                <a href="https://play.google.com/" target="_blank">
+                    <img src="imagens/botao-google-play.png" alt="Botão para o Google Play" />
+                </a>
+                <a href="https://www.apple.com/br/shop" target="_blank">
+                    <img src="imagens/botao-apple-store.png" alt="Botão para Apple Store" />
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- Banner Principal -->
+
+    <!-- Formulário de contato -->
+    <div class="conteudo">
+        <h1>Contato</h1>
+        <form action="">
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" name="nome" placeholder="Escreva seu nome completo">
+            <label for="email">E-mail:</label>
+            <input id="email" type="email" name="email" placeholder="Escreva seu endereço de e-mail">
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado">
+                <option selected="" value="">Selecione o Estado (UF)</option>
+                <option value="Acre">Acre</option>
+                <option value="Alagoas">Alagoas</option>
+                <option value="Amapá">Amapá</option>
+                <option value="Amazonas">Amazonas</option>
+                <option value="Bahia">Bahia</option>
+                <option value="Ceará">Ceará</option>
+                <option value="Distrito Federal">Distrito Federal</option>
+                <option value="Espírito Santo">Espírito Santo</option>
+                <option value="Goiás">Goiás</option>
+                <option value="Maranhão">Maranhão</option>
+                <option value="Mato Grosso">Mato Grosso</option>
+                <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                <option value="Minas Gerais">Minas Gerais</option>
+                <option value="Pará">Pará</option>
+                <option value="Paraíba">Paraíba</option>
+                <option value="Paraná">Paraná</option>
+                <option value="Pernambuco">Pernambuco</option>
+                <option value="Piauí">Piauí</option>
+                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                <option value="Rondônia">Rondônia</option>
+                <option value="Roraima">Roraima</option>
+                <option value="Santa Catarina">Santa Catarina</option>
+                <option value="São Paulo">São Paulo</option>
+                <option value="Sergipe">Sergipe</option>
+                <option value="Tocantins">Tocantins</option>
+            </select>
+            <label>É urgente?</label>
+            <div>
+                <input type="radio" name="urgente" id="sim" value="sim">
+                <label for="sim">Sim</label>
+            </div>
+            <div>
+                <input type="radio" name="urgente" id="nao" value="nao">
+                <label for="nao">Não</label>
+            </div>
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <!-- Formulário de contato -->
+
+    <!-- Gerencia Seus projetos -->
+    <footer class="rodape">
+        <div class="conteudo conteudo-rodape">
+            <div class="coluna">
+                <nav class="menu-rodape">
+                    <ul>
+                        <li>
+                            <a href="sobre.html">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+                <p>© 2021 Tecnogueto. Todos os direitos reservados.</p>
+            </div>
+            <div class="botoes-download-rodape">
+                <p class="margin-top-20">Baixe o aplicativo</p>
+                <a href="https://play.google.com/" target="_blank">
+                    <img src="imagens/botao-google-play.png" alt="Botão para o Google Play" />
+                </a>
+                <a href="https://www.apple.com/br/shop" target="_blank">
+                    <img src="imagens/botao-apple-store.png" alt="Botão para Apple Store" />
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
